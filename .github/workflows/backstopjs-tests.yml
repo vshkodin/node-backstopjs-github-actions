@@ -23,7 +23,7 @@ jobs:
 
     - name: Run BackstopJS tests
       run: |
-        backstop init
+        backstop test
 
     - name: Archive visual reports
       uses: actions/upload-artifact@v3
