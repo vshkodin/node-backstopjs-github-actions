@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: backstopjs-reports
-        path: backstop_data/html_report/  # This path might need to be adjusted based on your BackstopJS config
+        path: backstop_data/ # This path might need to be adjusted based on your BackstopJS config
